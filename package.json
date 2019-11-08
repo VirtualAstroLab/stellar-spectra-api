@@ -8,7 +8,7 @@
     "run:dev": "NODE_ENV=development nodemon dist/index.js",
     "build": "webpack",
     "test:unit": "jest",
-    "test:E2E": "npx cucumber-js ./tests/features"
+    "test:E2E": "npx cucumber-js ./tests/cucumber/features  --require ./tests/cucumber/steps"
   },
   "keywords": [],
   "author": "",
